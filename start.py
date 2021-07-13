@@ -12,6 +12,8 @@ from plugins.forward import forward
 
 logging.basicConfig(level=logging.INFO)
 
+async def forward():
+  
 AnjanaMa = TelegramClient(StringSession(heroku.STRING_SESSION),
                   				api_id=heroku.API_ID,
                   				api_hash=heroku.API_HASH)
