@@ -9,8 +9,6 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 from config import heroku
 from plugins.forward import forward
-
-logging.basicConfig(level=logging.INFO)
   
 AnjanaMa = TelegramClient(StringSession(heroku.STRING_SESSION),
                   				api_id=heroku.API_ID,
