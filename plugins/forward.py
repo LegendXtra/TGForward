@@ -4,8 +4,7 @@
 # ALRIGHTS RESERVED.
 
 import asyncio
-from telethon import TelegramClient 
-from start import AnjanaMa as bot
+from telethon import TelegramClient as bot
 from telethon.tl.types import InputMessagesFilterDocument, InputMessagesFilterMusic, InputMessagesFilterVideo, InputMessagesFilterPhotos
 from telethon.errors import FloodError
 from config import heroku
