@@ -18,4 +18,4 @@ AnjanaMa = TelegramClient(StringSession(heroku.STRING_SESSION),
                   				api_id=heroku.API_ID,
                   				api_hash=heroku.API_HASH)
 
-AnjanaMa.loop.run_until_complete(forward ())
+AnjanaMa.loop.run_until_complete(forward())
